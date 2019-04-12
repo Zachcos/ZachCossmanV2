@@ -56,11 +56,11 @@ const GlobalStyle = createGlobalStyle`
     background-attachment: scroll;
     background-color: #ffffff;
     color: #777777;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     line-height: 1.8em;
     text-transform: none;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     text-decoration: none;
     -webkit-font-smoothing: subpixel-antialiased !important;
