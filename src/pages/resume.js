@@ -1,5 +1,3 @@
 import React from 'react';
 
-export default () => {
-  <p>This is the resume page!</p>;
-};
+export default () => <p>This is the resume page!</p>;
