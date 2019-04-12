@@ -17,8 +17,8 @@ const Logo = styled.h1`
   font-size: normal;
   line-height: 1em;
   width: 100%;
-	text-align: center;
-	display: inline-block;
+  text-align: center;
+  display: inline-block;
   margin: 0;
   a {
     text-decoration: none;
@@ -27,7 +27,6 @@ const Logo = styled.h1`
   a:hover {
     color: #555555;
   }
-}
 `;
 
 const SiteInfo = styled.div`
