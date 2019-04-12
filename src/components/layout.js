@@ -30,11 +30,38 @@ const Logo = styled.h1`
 }
 `;
 
+const SiteInfo = styled.div`
+  clear: both;
+  padding-top: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: normal;
+  font-size: normal;
+  color: #bbb;
+  text-align: center;
+  .email {
+    text-align: left;
+  }
+  .city {
+    text-align: right;
+  }
+`;
+
 export default ({ children }) => (
   <Container>
     <Logo>
       <a href="/">Zach Cossman</a>
     </Logo>
+    <SiteInfo>
+      <div className="email">ZACHCOS@GMAIL.COM</div>
+      <div className="city">NEW YORK, NY</div>
+    </SiteInfo>
     {children}
   </Container>
 );
