@@ -8,9 +8,4 @@ const Container = styled.div`
   margin: 0 auto;
 `;
 
-export default ({ children }) => (
-  <Container>
-    This the the layout!
-    {children}
-  </Container>
-);
+export default ({ children }) => <Container>{children}</Container>;
