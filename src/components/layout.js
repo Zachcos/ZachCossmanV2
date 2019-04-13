@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Navigation from './navigation';
 
 const Container = styled.div`
   max-width: 1100px;
@@ -61,6 +62,7 @@ export default ({ children }) => (
       <div className="email">ZACHCOS@GMAIL.COM</div>
       <div className="city">NEW YORK, NY</div>
     </SiteInfo>
+    <Navigation />
     {children}
   </Container>
 );
