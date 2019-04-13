@@ -3,30 +3,54 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 const TopNav = styled.div`
-  margin-top: 50px;
+  margin: 50px auto;
   width: 100%;
   text-align: center;
-  float: left;
+  position: relative;
+`;
+
+const MainNav = styled.div`
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 50%;
+  padding: 0 2%;
+  min-width: 400px;
+  a {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #777;
+  }
+  a:hover {
+    color: #e28161;
+  }
+`;
+
+const NavDivider = styled.div`
+  position: relative;
+  top: -65px;
+  font-size: 12px;
+  border-bottom-width: 2px;
+  border-bottom: 2px solid #ddd;
+  z-index: -100;
 `;
 
 export default () => (
-  <TopNav>
-    <ul>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
+  <React.Fragment>
+    <TopNav>
+      <MainNav>
+        <Link to="/">News</Link>
         <Link to="/bio">Bio</Link>
-      </li>
-      <li>
         <Link to="/resume">Resume</Link>
-      </li>
-      <li>
         <Link to="/media">Media</Link>
-      </li>
-      <li>
         <Link to="/contact">Contact</Link>
-      </li>
-    </ul>
-  </TopNav>
+      </MainNav>
+    </TopNav>
+    <NavDivider />
+  </React.Fragment>
 );
