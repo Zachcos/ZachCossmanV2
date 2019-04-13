@@ -25,15 +25,21 @@ const MainNav = styled.div`
     text-decoration: none;
     letter-spacing: 2px;
     color: #777;
+    &:hover {
+      color: #e28161;
+      padding-bottom: 2px;
+      border-bottom: 2px #ccc solid;
+    }
   }
-  a:hover {
-    color: #e28161;
+  [aria-current='page'] {
+    padding-bottom: 2px;
+    border-bottom: 2px #ccc solid;
   }
 `;
 
 const NavDivider = styled.div`
   position: relative;
-  top: -65px;
+  top: -67px;
   font-size: 12px;
   border-bottom-width: 2px;
   border-bottom: 2px solid #ddd;
