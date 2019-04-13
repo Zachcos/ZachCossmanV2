@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Helmet } from 'react-helmet';
 import Navigation from './navigation';
+import GlobalStyle from '../imports/globalStyle';
 
 const Container = styled.div`
   max-width: 1100px;
@@ -54,15 +56,23 @@ const SiteInfo = styled.div`
 `;
 
 export default ({ children }) => (
-  <Container>
-    <Logo>
-      <a href="/">Zach Cossman</a>
-    </Logo>
-    <SiteInfo>
-      <div className="email">ZACHCOS@GMAIL.COM</div>
-      <div className="city">NEW YORK, NY</div>
-    </SiteInfo>
-    <Navigation />
-    {children}
-  </Container>
+  <React.Fragment>
+    <Helmet>
+      <title>ZachCossman.com</title>
+      <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet" />
+    </Helmet>
+    <Container>
+      <Logo>
+        <a href="/">Zach Cossman</a>
+      </Logo>
+      <SiteInfo>
+        <div className="email">ZACHCOS@GMAIL.COM</div>
+        <div className="city">NEW YORK, NY</div>
+      </SiteInfo>
+      <Navigation />
+      {children}
+      <GlobalStyle />
+    </Container>
+  </React.Fragment>
 );
