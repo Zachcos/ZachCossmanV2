@@ -21,6 +21,12 @@ const Date = styled.p`
   margin: -20px 0 40px 25px;
 `;
 
+const Image = styled.img`
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+`;
+
 export class Index extends React.Component {
   render() {
     return (
@@ -43,6 +49,8 @@ export class Index extends React.Component {
         </p>
         &nbsp;
         <p>Stay tuned for information about upcoming gigs.</p>
+        &nbsp;
+        <Image src="http://www.zachcossman.com/wp-content/themes/ZCWP/images/img4.jpg" alt="Zach Cossman Headshot" />
         <GlobalStyle />
       </Layout>
     );
