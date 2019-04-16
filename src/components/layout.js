@@ -11,6 +11,12 @@ const Container = styled.div`
   margin: 0 auto;
 `;
 
+const Page = styled.div`
+  width: 70%;
+  margin: 0 auto;
+  padding: 80px 0;
+`;
+
 const Logo = styled.h1`
   font-size: 34px;
   letter-spacing: 3px;
@@ -71,7 +77,7 @@ export default ({ children }) => (
         <div className="city">NEW YORK, NY</div>
       </SiteInfo>
       <Navigation />
-      {children}
+      <Page>{children}</Page>
       <GlobalStyle />
     </Container>
   </React.Fragment>
