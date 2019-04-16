@@ -14,7 +14,7 @@ const Container = styled.div`
 const Page = styled.div`
   width: 70%;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 60px 0;
 `;
 
 const Logo = styled.h1`
