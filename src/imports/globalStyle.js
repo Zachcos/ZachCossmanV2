@@ -68,7 +68,18 @@ const GlobalStyle = createGlobalStyle`
     display: block;
     padding: 80px;
   }
+
+  p {
+    color: #000;
+  }
   
+  .emphasis {
+    font-weight: 700;
+  }
+
+  .italic {
+    font-style: italic;
+  }
 `;
 
 export default GlobalStyle;
