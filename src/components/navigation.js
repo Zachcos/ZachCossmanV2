@@ -15,7 +15,7 @@ const MainNav = styled.div`
   justify-content: space-between;
   margin: 0 auto;
   width: 45%;
-  padding: 0 2%;
+  padding: 0 3%;
   min-width: 400px;
   a {
     font-family: 'Varela Round', sans-serif;
