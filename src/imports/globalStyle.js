@@ -68,13 +68,7 @@ const GlobalStyle = createGlobalStyle`
     display: block;
     padding: 80px;
   }
-
-  #container {
-    max-width: 1100px;
-    padding: 100px 100px 0;
-    border: 2px #dddddd solid;
-    margin: 0 auto;
-  }
+  
 `;
 
 export default GlobalStyle;
