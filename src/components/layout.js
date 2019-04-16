@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
 import Navigation from './navigation';
+import Footer from './footer';
 import GlobalStyle from '../imports/globalStyle';
 
 const Container = styled.div`
@@ -61,12 +62,30 @@ const SiteInfo = styled.div`
   }
 `;
 
+const PageDetails = styled.p`
+  text-align: center;
+  margin: 10px auto;
+  font-size: 11px;
+  a {
+    color: #777;
+    &:hover {
+      color: #000;
+    }
+  }
+`;
+
 export default ({ children }) => (
   <React.Fragment>
     <Helmet>
       <title>ZachCossman.com</title>
       <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet" />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossOrigin="anonymous"
+      />
     </Helmet>
     <Container>
       <Logo>
@@ -78,6 +97,14 @@ export default ({ children }) => (
       </SiteInfo>
       <Navigation />
       <Page>{children}</Page>
+      <Footer />
+      <PageDetails>
+        ZachCossman.com ||{' '}
+        <a href="https://zachcossmandesigns.com" target="_blank">
+          ZachCossmanDesigns.com
+        </a>{' '}
+        &copy; 2019
+      </PageDetails>
       <GlobalStyle />
     </Container>
   </React.Fragment>
