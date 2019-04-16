@@ -18,7 +18,7 @@ const Date = styled.p`
   color: #000;
   font-size: 14px;
   font-style: italic;
-  margin: -20px 0 40px 25px;
+  margin: -20px 0 25px 25px;
 `;
 
 const Image = styled.img`
