@@ -14,7 +14,7 @@ const MainNav = styled.div`
   background: white;
   justify-content: space-between;
   margin: 0 auto;
-  width: 50%;
+  width: 45%;
   padding: 0 2%;
   min-width: 400px;
   a {
