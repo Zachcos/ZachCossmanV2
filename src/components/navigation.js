@@ -53,7 +53,7 @@ export default () => (
         <Link to="/">News</Link>
         <Link to="/bio">Bio</Link>
         <Link to="/resume">Resume</Link>
-        <Link to="/media">Media</Link>
+        <Link to="/photos">Photos</Link>
         <Link to="/contact">Contact</Link>
       </MainNav>
     </TopNav>
