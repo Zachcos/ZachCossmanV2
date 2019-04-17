@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
+import { Link } from 'gatsby';
 import Navigation from './navigation';
 import Footer from './footer';
 import GlobalStyle from '../imports/globalStyle';
@@ -89,7 +90,7 @@ export default ({ children }) => (
     </Helmet>
     <Container>
       <Logo>
-        <a href="/">Zach Cossman</a>
+        <Link to="/">Zach Cossman</Link>
       </Logo>
       <SiteInfo>
         <div className="email">ZACHCOS@GMAIL.COM</div>
