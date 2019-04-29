@@ -44,7 +44,7 @@ export default () => (
     </p>
     &nbsp;
     <p>
-      In the short time following his graduation, Zach had the opportunity to work on the world-premiere production of
+      In the short time following his graduation, Zach had the opportunity to work on the world-premiere production of{' '}
       <span className="italic">Revolution in the Elbow of Ragnar Agnarsson Furniture Painter</span> Off-Broadway at the
       Minetta Lane theatre. Additionally, Zach has worked regionally at theatres such as Cincinnati Playhouse in the
       Park, Repertory Theatre of St. Louis, Bucks County Playhouse, Theatre Under the Stars, North Carolina Theatre,
