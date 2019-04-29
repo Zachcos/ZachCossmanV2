@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 
-import zc_sitting from '../../static/images/zc_sitting';
+import sitting from '../../static/images/zc_sitting.jpg';
 
 const PageHeader = styled.h2`
   font-size: 22px;
@@ -27,7 +27,7 @@ const Image = styled.div`
 export default () => (
   <Layout>
     <Image>
-      <img src={zc_sitting} alt="Zach Cossman" />
+      <img src={sitting} alt="Zach Cossman" />
     </Image>
     <PageHeader>Before moving to NYC, Zach spent his time surrounded by music and the arts.</PageHeader>
     <p>
