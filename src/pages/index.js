@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import GlobalStyle from '../imports/globalStyle';
 import Layout from '../components/layout';
 
+import headshot from '../../static/images/headshot.jpg';
+
 const PageHeader = styled.h2`
   font-family: 'Varela Round', sans-serif;
   letter-spacing: 2px;
@@ -52,7 +54,7 @@ export class Index extends React.Component {
         <p>Stay tuned for information about upcoming gigs.</p>
         &nbsp;
         <Image>
-          <img src="http://www.zachcossman.com/wp-content/themes/ZCWP/images/img4.jpg" alt="My headshot" />
+          <img src={headshot} alt="Zach Cossman headshot" />
         </Image>
         <GlobalStyle />
       </Layout>
