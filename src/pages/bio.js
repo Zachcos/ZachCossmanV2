@@ -20,7 +20,7 @@ const PageHeader = styled.h2`
 const Image = styled.div`
   max-width: 100%;
   height: auto;
-  margin: 0 auto 25px; auto;
+  margin: 0 auto 25px auto;
   text-align: center;
 `;
 
