@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 
+import zc_sitting from '../../static/images/zc_sitting';
+
 const PageHeader = styled.h2`
   font-size: 22px;
   letter-spacing: 2px;
@@ -25,7 +27,7 @@ const Image = styled.div`
 export default () => (
   <Layout>
     <Image>
-      <img src="http://www.zachcossman.com/wp-content/themes/ZCWP/images/zc_sitting.jpg" alt="Zach Cossman" />
+      <img src={zc_sitting} alt="Zach Cossman" />
     </Image>
     <PageHeader>Before moving to NYC, Zach spent his time surrounded by music and the arts.</PageHeader>
     <p>

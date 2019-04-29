@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 
+import agency from '../../static/images/annsteeleagency.png';
+
 const PageHeader = styled.h2`
   font-size: 22px;
   letter-spacing: 2px;
@@ -32,7 +34,7 @@ export default () => (
   <Layout>
     <PageHeader>Zach is represented by:</PageHeader>
     <InfoContainer>
-      <img src="http://www.zachcossman.com/wp-content/themes/ZCWP/images/annsteeleagency.png" alt="Ann Steele Agency" />
+      <img src={agency} alt="Ann Steele Agency" />
       <p>330 West 42nd St. 18th Floor. New York, NY 10036</p>
       <p>p: 212.629.9112</p>
       <a href="https://annsteeleagency.com" target="_blank">
