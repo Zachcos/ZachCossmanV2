@@ -53,6 +53,9 @@ const Logo = styled.h1`
   a:hover {
     color: #555555;
   }
+  @media screen and (max-width: 695px) {
+    font-size: 26px;
+  }
 `;
 
 const SiteInfo = styled.div`
