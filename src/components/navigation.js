@@ -7,6 +7,9 @@ const TopNav = styled.div`
   width: 100%;
   text-align: center;
   position: relative;
+  @media screen and (max-width: 695px) {
+    display: none;
+  }
 `;
 
 const MainNav = styled.div`
@@ -44,6 +47,9 @@ const NavDivider = styled.div`
   border-bottom-width: 2px;
   border-bottom: 2px solid #ddd;
   z-index: -100;
+  @media screen and (max-width: 695px) {
+    display: none;
+  }
 `;
 
 export default () => (

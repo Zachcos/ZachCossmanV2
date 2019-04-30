@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import Navigation from './navigation';
+import MobileNavigation from './mobileNavigation';
 import Footer from './footer';
 import GlobalStyle from '../imports/globalStyle';
 
@@ -110,6 +111,7 @@ export default ({ children }) => (
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
         crossOrigin="anonymous"
       />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js" />
     </Helmet>
     <Container>
       <Logo>
@@ -120,6 +122,7 @@ export default ({ children }) => (
         <div className="city">NEW YORK, NY</div>
       </SiteInfo>
       <Navigation />
+      <MobileNavigation />
       <Page>{children}</Page>
       <Footer />
       <PageDetails>
