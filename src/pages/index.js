@@ -29,7 +29,7 @@ const Image = styled.div`
   max-width: 100%;
   text-align: center;
   img {
-    heigh: auto;
+    height: auto;
     max-width: 100%;
   }
 `;
