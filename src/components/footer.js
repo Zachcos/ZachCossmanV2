@@ -8,7 +8,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 80px;
+  margin: 40px 0;
   width: 100%;
   a {
     padding: 0;
@@ -25,6 +25,9 @@ const Container = styled.div`
       color: #e28161;
       transition: color 300ms ease-out;
     }
+  }
+  @media screen and (max-width: 695px) {
+    justify-content: space-around;
   }
 `;
 
