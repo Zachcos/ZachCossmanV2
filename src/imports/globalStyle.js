@@ -70,6 +70,10 @@ const GlobalStyle = createGlobalStyle`
     @media screen and (max-width: 1024px) {
       padding: 20px;
     }
+    @media screen and (max-width: 695px) {
+      padding: 0;
+      min-width: 250px;
+    }
   }
 
   p {
