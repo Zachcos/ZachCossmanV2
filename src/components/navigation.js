@@ -21,13 +21,14 @@ const MainNav = styled.div`
   width: 30%;
   min-width: 400px;
   a {
+    border-bottom: 2px transparent solid;
+    color: #777;
     font-family: 'Varela Round', sans-serif;
     font-size: 12px;
-    line-height: 1.6rem;
-    text-transform: uppercase;
-    text-decoration: none;
     letter-spacing: 2px;
-    color: #777;
+    line-height: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
     &:hover {
       color: #e28161;
       padding-bottom: 2px;
