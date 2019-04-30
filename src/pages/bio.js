@@ -22,6 +22,10 @@ const Image = styled.div`
   height: auto;
   margin: 0 auto 25px auto;
   text-align: center;
+  img {
+    height: auto;
+    max-width: 100%;
+  }
 `;
 
 export default () => (
