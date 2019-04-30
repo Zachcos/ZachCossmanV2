@@ -11,12 +11,27 @@ const Container = styled.div`
   padding: 100px 100px 0;
   border: 2px #dddddd solid;
   margin: 0 auto;
+  @media screen and (max-width: 1024px) {
+    border: 0;
+  }
+  @media screen and (max-width: 695px) {
+    border: 0;
+    padding: 50px 30px;
+  }
 `;
 
 const Page = styled.div`
   width: 70%;
   margin: 0 auto;
   padding: 40px 0;
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 695px) {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+  }
 `;
 
 const Logo = styled.h1`
@@ -60,6 +75,11 @@ const SiteInfo = styled.div`
   }
   .city {
     text-align: right;
+  }
+  @media screen and (max-width: 695px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
