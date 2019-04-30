@@ -6,28 +6,32 @@ import Layout from '../components/layout';
 import headshot from '../../static/images/headshot.jpg';
 
 const PageHeader = styled.h2`
+  color: #333333;
   font-family: 'Varela Round', sans-serif;
-  letter-spacing: 2px;
   font-size: 22px;
   font-weight: 400;
+  letter-spacing: 2px;
   line-height: 1.2rem;
   margin-bottom: 25px;
-  color: #333333;
 `;
 
 const Date = styled.p`
-  font-family: 'Open Sans', sans-serif;
   color: #000;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-style: italic;
   margin: -20px 0 25px 25px;
 `;
 
 const Image = styled.div`
-  max-width: 100%;
   height: auto;
   margin: 25px auto 0 auto;
+  max-width: 100%;
   text-align: center;
+  img {
+    heigh: auto;
+    max-width: 100%;
+  }
 `;
 
 export class Index extends React.Component {
