@@ -67,6 +67,9 @@ const GlobalStyle = createGlobalStyle`
     -webkit-background-size: auto;
     display: block;
     padding: 80px;
+    @media screen and (max-width: 1024px) {
+      padding: 20px;
+    }
   }
 
   p {
