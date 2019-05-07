@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import GlobalStyle from '../imports/globalStyle';
 import Layout from '../components/layout';
 
-import headshot from '../../static/images/headshot.jpg';
+import headshot from '../../static/images/zc1.jpg';
 
 const PageHeader = styled.h2`
   color: #333333;

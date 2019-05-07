@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 
-import sitting from '../../static/images/zc_sitting.jpg';
+import sitting from '../../static/images/zc2.jpg';
 
 const PageHeader = styled.h2`
   font-size: 22px;
